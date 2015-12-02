@@ -1,9 +1,9 @@
 package com.killer.ImageTest;
 
-public class Constant 
+public class Constant
 {
-	//单位尺寸
-	public static final float UNIT_SIZE=1f;
-	//计算GLSurfaceView的宽高比
+    //鍗曚綅灏哄
+    public static final float UNIT_SIZE=1f;
+    //璁＄畻GLSurfaceView鐨勫楂樻瘮
     public static float ratio;
 }

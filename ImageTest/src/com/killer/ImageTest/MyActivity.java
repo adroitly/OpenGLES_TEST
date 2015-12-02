@@ -8,25 +8,26 @@ import android.view.WindowManager;
 
 public class MyActivity extends Activity {
     private MySurfaceView mySurfaceView;
-    static boolean threadFlag;//ÎÆÀí¾ØĞÎÈÆXÖáĞı×ª¹¤×÷±êÖ¾Î»
+    static boolean threadFlag;//çº¹ç†çŸ©å½¢ç»•Xè½´æ—‹è½¬å·¥ä½œæ ‡å¿—ä½
     /**
      * Called when the activity is first created.
      */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
-        //ÉèÖÃÎªÈ«ÆÁ
+        System.out.println("create");
+//        setContentView(R.layout.main);
+        //è®¾ç½®ä¸ºå…¨å±
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        //ÉèÖÃÎªÊúÆÁÄ£Ê½
+        //è®¾ç½®ä¸ºç«–å±æ¨¡å¼
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-        //ÇĞ»»µ½Ö÷½çÃæ
+        //åˆ‡æ¢åˆ°ä¸»ç•Œé¢
         mySurfaceView = new MySurfaceView(this);
         setContentView(mySurfaceView);
-        mySurfaceView.requestFocus();//»ñÈ¡½¹µã
-        mySurfaceView.setFocusableInTouchMode(true);//ÉèÖÃ¿ÉÒÔ´¥¿Ø
+        mySurfaceView.requestFocus();//è·å–ç„¦ç‚¹
+        mySurfaceView.setFocusableInTouchMode(true);//è®¾ç½®å¯ä»¥è§¦æ§
     }
     @Override
     protected void onResume() {
