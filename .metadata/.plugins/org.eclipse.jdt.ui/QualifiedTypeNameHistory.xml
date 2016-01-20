@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.view.SurfaceView"/>
+<fullyQualifiedTypeName name="com.killer.useobj.MySufaceView"/>
+<fullyQualifiedTypeName name="javax.microedition.khronos.opengles.GL"/>
+<fullyQualifiedTypeName name="android.opengl.GLSurfaceView.Renderer"/>
+<fullyQualifiedTypeName name="com.killer.useobj.MySufaceView.SceneRenderer"/>
+<fullyQualifiedTypeName name="android.opengl.GLSurfaceView"/>
+<fullyQualifiedTypeName name="android.view.MotionEvent"/>
+<fullyQualifiedTypeName name="com.killer.useobj.LoadedObjectVertexOnly"/>
+<fullyQualifiedTypeName name="android.opengl.GLES20"/>
+<fullyQualifiedTypeName name="com.killer.useobj.MatrixState"/>
+</qualifiedTypeNameHistroy>

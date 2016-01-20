@@ -1,0 +1,14 @@
+package com.killer.useobj;
+
+import android.content.Context;
+import android.opengl.GLES20;
+import android.view.SurfaceView;
+
+public class MySufaceView extends SurfaceView{
+
+	public MySufaceView(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+	}
+
+}

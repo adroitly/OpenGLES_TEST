@@ -1,0 +1,10 @@
+package com.killer.useobj;
+
+import android.content.res.Resources;
+
+public class LoadUtil {
+	public static void loadFromFile(String string, Resources resources, MySurfaceView mySurfaceView)
+	{
+		
+	}
+}

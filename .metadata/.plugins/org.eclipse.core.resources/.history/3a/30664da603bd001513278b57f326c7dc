@@ -1,0 +1,16 @@
+package com.killer.useobj;
+
+import android.content.Context;
+import android.opengl.GLES20;
+import android.view.SurfaceView;
+
+public class MySufaceView extends GLSurfaceView{
+
+	public MySufaceView(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+	}
+	
+	private class SceneRenderer implements GL 
+
+}

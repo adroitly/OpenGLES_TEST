@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.killer.useobj.MySufaceView&apos; to &apos;MySurfaceView&apos;&#x0D;&#x0A;- Original project: &apos;UseObj&apos;&#x0D;&#x0A;- Original element: &apos;com.killer.useobj.MySufaceView&apos;&#x0D;&#x0A;- Renamed element: &apos;com.killer.useobj.MySurfaceView&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MySufaceView&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.killer.useobj{MySufaceView.java[MySufaceView" matchStrategy="1" name="MySurfaceView" qualified="false" references="true" similarDeclarations="false" stamp="1453026898691" textual="false" version="1.0"/>
+</session>

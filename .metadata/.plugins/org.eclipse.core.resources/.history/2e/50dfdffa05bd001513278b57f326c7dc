@@ -1,0 +1,8 @@
+package com.killer.useobj;
+
+public class LoadUtil {
+	public static void loadFromFile()
+	{
+		
+	}
+}

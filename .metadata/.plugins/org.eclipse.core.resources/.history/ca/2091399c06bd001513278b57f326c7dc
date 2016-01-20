@@ -1,0 +1,8 @@
+package com.killer.useobj;
+
+public class LoadedObjectVertexOnly {
+	public void drawSelf()
+	{
+		
+	}
+}

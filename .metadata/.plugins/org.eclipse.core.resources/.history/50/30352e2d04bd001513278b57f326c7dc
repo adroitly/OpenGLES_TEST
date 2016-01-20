@@ -1,0 +1,65 @@
+package com.killer.useobj;
+
+import javax.microedition.khronos.egl.EGLConfig;
+import javax.microedition.khronos.opengles.GL10;
+
+import com.bn.Sample9_1.MySurfaceView.SceneRenderer;
+
+import android.content.Context;
+import android.opengl.GLES20;
+import android.opengl.GLSurfaceView;
+import android.view.MotionEvent;
+import android.view.SurfaceView;
+
+public class MySufaceView extends GLSurfaceView{
+	private final float TOUCH_SCALE_FACTOR = 180.0f/320;//角度缩放比例
+    private SceneRenderer mRenderer;//场景渲染器    
+    
+	public MySufaceView(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+		this.setEGLContextClientVersion(2);//设置2
+		
+		mRenderer = new SceneRenderer();
+		this.setRenderer(mRenderer);
+		setRenderMode(GLSurfaceView.RENDERMODE_CONTINUOUSLY);//设置渲染模式为主动渲染   
+	}
+	//触摸事件回调方法
+    @Override 
+    public boolean onTouchEvent(MotionEvent e)
+    {
+    	float y = e.getY();
+    	float x = e.getX();
+    	switch (e.getAction()) {
+		case MotionEvent.ACTION_MOVE://移动状态
+			
+			break;
+
+		default:
+			break;
+		}
+    }
+	private class SceneRenderer implements GLSurfaceView.Renderer
+	{
+
+		@Override
+		public void onDrawFrame(GL10 arg0) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void onSurfaceChanged(GL10 arg0, int arg1, int arg2) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void onSurfaceCreated(GL10 arg0, EGLConfig arg1) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+
+}
